@@ -1,0 +1,52 @@
+{
+  "name": "holodos",
+  "version": "1.0.0",
+  "description": "This is a Telegram bot",
+  "author": {
+    "name": "Dmitrii Baklai",
+    "email": "d.n.baklai@gmail.com",
+    "url": "https://baklai.github.io"
+  },
+  "homepage": "https://github.com/baklai/holodos#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baklai/holodos.git"
+  },
+  "bugs": {
+    "url": "https://github.com/baklai/holodos/issues"
+  },
+  "keywords": [
+    "telegram",
+    "node.js",
+    "vue.js",
+    "nuxt",
+    "bot"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "bot": "nodemon holodos.js",
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12",
+    "core-js": "^3.18.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.5",
+    "mongoose-paginate": "^5.0.3",
+    "node-telegram-bot-api": "^0.58.0",
+    "nuxt": "^2.15.8",
+    "puppeteer": "^17.1.2",
+    "sharp": "^0.30.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19",
+    "prettier": "^2.4.1",
+    "sass-loader": "^10.1.1",
+    "webpack": "^4.46.0"
+  }
+}
